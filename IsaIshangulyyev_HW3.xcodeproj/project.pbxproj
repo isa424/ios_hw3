@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		B88C50C82641C48F0090E966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50C72641C48F0090E966 /* AppDelegate.swift */; };
 		B88C50CA2641C48F0090E966 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50C92641C48F0090E966 /* SceneDelegate.swift */; };
-		B88C50CC2641C48F0090E966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50CB2641C48F0090E966 /* ViewController.swift */; };
+		B88C50CC2641C48F0090E966 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50CB2641C48F0090E966 /* MainVC.swift */; };
 		B88C50CF2641C48F0090E966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88C50CD2641C48F0090E966 /* Main.storyboard */; };
 		B88C50D12641C4910090E966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B88C50D02641C4910090E966 /* Assets.xcassets */; };
 		B88C50D42641C4910090E966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B88C50D22641C4910090E966 /* LaunchScreen.storyboard */; };
+		B88C50E12641CA740090E966 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50DB2641CA740090E966 /* SwiftyJSON.swift */; };
+		B88C50E22641CA740090E966 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50DC2641CA740090E966 /* DataSource.swift */; };
+		B88C50E32641CA740090E966 /* SWXMLHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50DD2641CA740090E966 /* SWXMLHash.swift */; };
+		B88C50E42641CA740090E966 /* hw3.xml in Resources */ = {isa = PBXBuildFile; fileRef = B88C50DE2641CA740090E966 /* hw3.xml */; };
+		B88C50E52641CA740090E966 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50DF2641CA740090E966 /* Record.swift */; };
+		B88C50E62641CA740090E966 /* hw3.json in Resources */ = {isa = PBXBuildFile; fileRef = B88C50E02641CA740090E966 /* hw3.json */; };
+		B88C50E82641CAAB0090E966 /* JsonVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50E72641CAAB0090E966 /* JsonVC.swift */; };
+		B88C50EA2641D1110090E966 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50E92641D1110090E966 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B88C50C42641C48F0090E966 /* IsaIshangulyyev_HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsaIshangulyyev_HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88C50C72641C48F0090E966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B88C50C92641C48F0090E966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B88C50CB2641C48F0090E966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B88C50CB2641C48F0090E966 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		B88C50CE2641C48F0090E966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B88C50D02641C4910090E966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B88C50D32641C4910090E966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B88C50D52641C4910090E966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B88C50DB2641CA740090E966 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = ../../../../Downloads/HW3/code/SwiftyJSON.swift; sourceTree = "<group>"; };
+		B88C50DC2641CA740090E966 /* DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DataSource.swift; path = ../../../../Downloads/HW3/code/DataSource.swift; sourceTree = "<group>"; };
+		B88C50DD2641CA740090E966 /* SWXMLHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SWXMLHash.swift; path = ../../../../Downloads/HW3/code/SWXMLHash.swift; sourceTree = "<group>"; };
+		B88C50DE2641CA740090E966 /* hw3.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; name = hw3.xml; path = ../../../../Downloads/HW3/code/hw3.xml; sourceTree = "<group>"; };
+		B88C50DF2641CA740090E966 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Record.swift; path = ../../../../Downloads/HW3/code/Record.swift; sourceTree = "<group>"; };
+		B88C50E02641CA740090E966 /* hw3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = hw3.json; path = ../../../../Downloads/HW3/code/hw3.json; sourceTree = "<group>"; };
+		B88C50E72641CAAB0090E966 /* JsonVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonVC.swift; sourceTree = "<group>"; };
+		B88C50E92641D1110090E966 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +72,21 @@
 		B88C50C62641C48F0090E966 /* IsaIshangulyyev_HW3 */ = {
 			isa = PBXGroup;
 			children = (
+				B88C50DC2641CA740090E966 /* DataSource.swift */,
+				B88C50E02641CA740090E966 /* hw3.json */,
+				B88C50DE2641CA740090E966 /* hw3.xml */,
+				B88C50DF2641CA740090E966 /* Record.swift */,
+				B88C50DB2641CA740090E966 /* SwiftyJSON.swift */,
+				B88C50DD2641CA740090E966 /* SWXMLHash.swift */,
 				B88C50C72641C48F0090E966 /* AppDelegate.swift */,
 				B88C50C92641C48F0090E966 /* SceneDelegate.swift */,
-				B88C50CB2641C48F0090E966 /* ViewController.swift */,
+				B88C50CB2641C48F0090E966 /* MainVC.swift */,
 				B88C50CD2641C48F0090E966 /* Main.storyboard */,
 				B88C50D02641C4910090E966 /* Assets.xcassets */,
 				B88C50D22641C4910090E966 /* LaunchScreen.storyboard */,
 				B88C50D52641C4910090E966 /* Info.plist */,
+				B88C50E72641CAAB0090E966 /* JsonVC.swift */,
+				B88C50E92641D1110090E966 /* DetailVC.swift */,
 			);
 			path = IsaIshangulyyev_HW3;
 			sourceTree = "<group>";
@@ -124,8 +148,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B88C50E42641CA740090E966 /* hw3.xml in Resources */,
 				B88C50D42641C4910090E966 /* LaunchScreen.storyboard in Resources */,
 				B88C50D12641C4910090E966 /* Assets.xcassets in Resources */,
+				B88C50E62641CA740090E966 /* hw3.json in Resources */,
 				B88C50CF2641C48F0090E966 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +163,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B88C50CC2641C48F0090E966 /* ViewController.swift in Sources */,
+				B88C50CC2641C48F0090E966 /* MainVC.swift in Sources */,
+				B88C50E32641CA740090E966 /* SWXMLHash.swift in Sources */,
+				B88C50E82641CAAB0090E966 /* JsonVC.swift in Sources */,
 				B88C50C82641C48F0090E966 /* AppDelegate.swift in Sources */,
 				B88C50CA2641C48F0090E966 /* SceneDelegate.swift in Sources */,
+				B88C50EA2641D1110090E966 /* DetailVC.swift in Sources */,
+				B88C50E52641CA740090E966 /* Record.swift in Sources */,
+				B88C50E22641CA740090E966 /* DataSource.swift in Sources */,
+				B88C50E12641CA740090E966 /* SwiftyJSON.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
