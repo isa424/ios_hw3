@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B8372E5E264ABCA2004F63F3 /* XmlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8372E5D264ABCA2004F63F3 /* XmlVC.swift */; };
 		B88C50C82641C48F0090E966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50C72641C48F0090E966 /* AppDelegate.swift */; };
 		B88C50CA2641C48F0090E966 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50C92641C48F0090E966 /* SceneDelegate.swift */; };
 		B88C50CC2641C48F0090E966 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B88C50CB2641C48F0090E966 /* MainVC.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B8372E5D264ABCA2004F63F3 /* XmlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XmlVC.swift; sourceTree = "<group>"; };
 		B88C50C42641C48F0090E966 /* IsaIshangulyyev_HW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IsaIshangulyyev_HW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B88C50C72641C48F0090E966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B88C50C92641C48F0090E966 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +89,7 @@
 				B88C50D52641C4910090E966 /* Info.plist */,
 				B88C50E72641CAAB0090E966 /* JsonVC.swift */,
 				B88C50E92641D1110090E966 /* DetailVC.swift */,
+				B8372E5D264ABCA2004F63F3 /* XmlVC.swift */,
 			);
 			path = IsaIshangulyyev_HW3;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				B88C50C82641C48F0090E966 /* AppDelegate.swift in Sources */,
 				B88C50CA2641C48F0090E966 /* SceneDelegate.swift in Sources */,
 				B88C50EA2641D1110090E966 /* DetailVC.swift in Sources */,
+				B8372E5E264ABCA2004F63F3 /* XmlVC.swift in Sources */,
 				B88C50E52641CA740090E966 /* Record.swift in Sources */,
 				B88C50E22641CA740090E966 /* DataSource.swift in Sources */,
 				B88C50E12641CA740090E966 /* SwiftyJSON.swift in Sources */,
